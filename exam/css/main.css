@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("/img/movies.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: -8px 10px 14px 3px rgba(34, 60, 80, 0.2);
+}
+
+.bi-bookmark-star:hover {
+  box-shadow: -8px 10px 14px 3px rgba(34, 60, 80, 0.2);
+  cursor: pointer;
+}
+
+svg:hover {
+  fill: blue;
+}
